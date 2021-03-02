@@ -1,17 +1,10 @@
 import { Button } from 'app/App.components/Button/Button.controller'
-<<<<<<< Updated upstream
-=======
 import { CourseBox } from 'app/App.components/CourseBox/CourseBox.controller'
->>>>>>> Stashed changes
 import * as React from 'react'
 import { Link } from 'react-router-dom'
 
 //prettier-ignore
-<<<<<<< Updated upstream
-import { HomeContainer, HomePage, HomeStyled } from './Home.style'
-=======
 import { HomeContainer, HomeCourse, HomeCourseGrid, HomePage, HomeStyled } from './Home.style'
->>>>>>> Stashed changes
 
 export const HomeView = () => {
   return (
@@ -29,17 +22,9 @@ export const HomeView = () => {
             the Web3 space.
           </span>
           <span>You will get your own Ethereum wallet in the first 10 minutes or so.</span>
-<<<<<<< Updated upstream
-          <span>
-            At the end of the 23 modules, you will be handed a completion certificate which grants access to the Ocean
-            Ambassador community.
-          </span>
-          <Link to="/ocean101/chapter-1">
-=======
           <span>At the end of the 23 modules, you will be handed a completion certificate which grants access to the Ocean Ambassador community.</span>
           
           <Link to="/chapter-1">
->>>>>>> Stashed changes
             <Button text="GET STARTED" color="primary" />
           </Link>
 
